@@ -2,8 +2,8 @@
 FROM python:3.10
 
 # Устанавливаем переменные среды
-ENV PYTHONDONTWRITEBYTECODE 1
-ENV PYTHONUNBUFFERED 1
+ENV PYTHONDONTWRITEBYTECODE=1
+ENV PYTHONUNBUFFERED=1
 
 # Создаем и переходим в рабочую директорию
 WORKDIR /app

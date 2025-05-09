@@ -8,6 +8,7 @@ from .serializers import PhotoSerializer, UserSerializer, CustomTokenObtainPairS
 from django.contrib.auth import get_user_model
 import os
 from datetime import datetime
+from rest_framework import serializers
 
 User = get_user_model()
 
